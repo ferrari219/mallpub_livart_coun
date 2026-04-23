@@ -1,0 +1,53 @@
+<div class="tabs tabs-step budget">
+	<ul>
+		<li>
+			<a href="#">
+				<i></i>
+				STEP 1
+				<!-- 인테리어<br />취향 테스트 -->
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<i></i>
+				STEP 2
+				<!-- 추천스타일<br />패키지 -->
+			</a>
+		</li>
+		<li class="is-active">
+			<a href="#">
+				<i></i>
+				STEP 3
+				<!-- 현장정보 -->
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<i></i>
+				STEP 4
+				<!-- 옵션 선택 -->
+			</a>
+		</li>
+		<li>
+			<!--  li class="is-done"  class="is-active" -->
+			<a href="#">
+				<i></i>
+				STEP 5
+				<!-- 견적 -->
+			</a>
+		</li>
+	</ul>
+</div>
+<script>
+	$('.tabs-step ul li').each(function (index, element) {
+		$(element).not('.is-active').addClass('is-done');
+		if ($(this).is('.is-active')) {
+			$(element).addClass('is-done');
+			return false;
+		}
+	});
+	$('.tabs-step ul li a').on('click', function () {
+		$(this).parent().addClass('is-active').siblings().removeClass('is-active');
+		// tabPillActive();
+	});
+</script>

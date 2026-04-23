@@ -1,0 +1,921 @@
+<!-- 허브메인 전용 헤더: 형태만 약간 다르고 기본 구조는 include/header.html과 동일합니다. -->
+<div class="header-main hub">
+	<!-- header logo -->
+	<div class="header-logo">
+		<!-- is-active로 제어 -->
+		<div class="fullmenu-wrap">
+			<button type="button" class="header-logo__title__fullmenubtn icon">
+				<i class="icon-cate"></i>
+				<p class="header-logo__title__fullmenubtn__txt">카테고리</p>
+				<span class="hidden">메뉴 열기</span>
+			</button>
+			<div class="fullmenu-tabs-wrap">
+				<!--  style="display: block; opacity: 1" -->
+				<div class="tabs-top">
+					<a href="#"><i class="icon-home"></i>메인으로 이동</a>
+				</div>
+				<div class="tabs-wrap">
+					<div class="tabs tabs--1dep is-toggle tabs-normal">
+						<ul role="tablist" aria-label="Tabs">
+							<!-- 200911, li안에 태그button을 링크태그a로 바꿈 -->
+							<li>
+								<a href="link" id="tab-01" class="tab" role="gnbtab" aria-controls="tabpanel-01" aria-selected="false" tabindex="0">
+									<img src="../../assets/images/gnb/gate_01.jpg" alt="가구" />
+									<span><strong>가구</strong></span>
+								</a>
+							</li>
+							<li>
+								<a href="link" id="tab-04" class="tab" role="gnbtab" aria-controls="tabpanel-04" aria-selected="false" tabindex="-1">
+									<img src="../../assets/images/gnb/gate_04.jpg" alt="세계가구" />
+									<span><strong>세계가구</strong></span>
+								</a>
+							</li>
+							<li>
+								<a href="link" id="tab-02" class="tab" role="gnbtab" aria-controls="tabpanel-02" aria-selected="false" tabindex="-1">
+									<img src="../../assets/images/gnb/gate_02.jpg" alt="리모델링" />
+									<span><strong>리모델링&amp;시공</strong>집테리어</span>
+								</a>
+							</li>
+							<li>
+								<a href="link" id="tab-03" class="tab" role="gnbtab" aria-controls="tabpanel-03" aria-selected="false" tabindex="-1">
+									<img src="../../assets/images/gnb/gate_03.jpg" alt="오피스" />
+									<span><strong>오피스</strong></span>
+								</a>
+							</li>
+							<li>
+								<a href="link" id="tab-04" class="tab" role="gnbtab" aria-controls="tabpanel-05" aria-selected="false" tabindex="-1">
+									<img src="../../assets/images/gnb/gate_05.jpg" alt="중고가구" />
+									<span><strong>중고가구</strong>오구가구</span>
+								</a>
+							</li>
+							<li>
+								<a href="link" id="tab-04" class="tab" role="gnbtab" aria-controls="tabpanel-06" aria-selected="false" tabindex="-1">
+									<img src="../../assets/images/gnb/gate_06.jpg" alt="커뮤니티" />
+									<span><strong>커뮤니티</strong>힌지</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="tabpanel-01" class="tabpanel is-active" role="tabpanel" aria-labelledby="tab-01" tabindex="0" hidden>
+						<div class="tabs tabs--2dep">
+							<!-- 2뎁스 타이틀 -->
+							<h2 class="tabs--2dep-title hidden">침실가구</h2>
+							<ul role="tablist" aria-label="Tabs">
+								<li class="is-active">
+									<a href="#" id="tab-1-1" class="tab" role="gnbtab" aria-controls="tabpanel-1-1" aria-selected="true" tabindex="0">
+										<span>침실</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-2" class="tab" role="gnbtab" aria-controls="tabpanel-1-2" aria-selected="false" tabindex="-1">
+										<span>옷장/수납</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-3" class="tab" role="gnbtab" aria-controls="tabpanel-1-3" aria-selected="false" tabindex="-1">
+										<span>거실</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-4" class="tab" role="gnbtab" aria-controls="tabpanel-1-4" aria-selected="false" tabindex="-1">
+										<span>주방</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-5" class="tab" role="gnbtab" aria-controls="tabpanel-1-5" aria-selected="false" tabindex="-1">
+										<span>키즈/주니어</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-6" class="tab" role="gnbtab" aria-controls="tabpanel-1-6" aria-selected="false" tabindex="-1">
+										<span>서재/홈오피스</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-7" class="tab" role="gnbtab" aria-controls="tabpanel-1-7" aria-selected="false" tabindex="-1">
+										<span>리모델링/시공</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-8" class="tab" role="gnbtab" aria-controls="tabpanel-1-8" aria-selected="false" tabindex="-1">
+										<span>가전</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-9" class="tab" role="gnbtab" aria-controls="tabpanel-1-9" aria-selected="false" tabindex="-1">
+										<span>홈데코</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-10" class="tab" role="gnbtab" aria-controls="tabpanel-1-10" aria-selected="false" tabindex="-1">
+										<span>오피스</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-11" class="tab" role="gnbtab" aria-controls="tabpanel-1-11" aria-selected="false" tabindex="-1">
+										<span>Art&amp;Design</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-12" class="tab" role="gnbtab" aria-controls="tabpanel-1-12" aria-selected="false" tabindex="-1">
+										<span>삼성전자</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-1-13" class="tab" role="gnbtab" aria-controls="tabpanel-1-13" aria-selected="false" tabindex="-1">
+										<span>A/S부품</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<!-- 3depth tabpanel-1-1-->
+						<div id="tabpanel-1-1" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-1" tabindex="-1" hidden>
+							<!-- 2dep: 침실 > 3dep -->
+							<div class="tabs tabs--3dep">
+								<ul>
+									<!-- 200921, 활성화 상태 샘플 -->
+									<li>
+										<a href="#" id="tab-1-1-1" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-1" aria-selected="true" tabindex="0">
+											<span>가죽소파</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-1-1-2" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-2" aria-selected="true" tabindex="0">
+											<span>패브릭소파</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-1-1-3" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-3" aria-selected="true" tabindex="0">
+											<span>리클라이너소파</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-1-1-4" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-4" aria-selected="true" tabindex="0">
+											<span>거실장</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-1-1-5" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-5" aria-selected="true" tabindex="0">
+											<span>소가구</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-1-1-6" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-6" aria-selected="true" tabindex="0">
+											<span>기타소파</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div id="tabpanel-1-1-1" class="tabpanel" role="tabpanel" aria-labelledby="tab-1-1-1" tabindex="0" hidden>
+								<!-- 3dep: tab-1-1-1 가죽소파 -->
+								<div class="tabs tabs--4dep">
+									<ul>
+										<!-- 200921, 활성화 상태 샘플 -->
+										<li>
+											<a href="#" id="tab-1-1-1-1" class="tab" role="gnbtab" aria-selected="true" tabindex="0">
+												<span>1인/오토만</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" id="tab-1-1-1-2" class="tab" role="gnbtab" aria-selected="false" tabindex="0">
+												<span>2인/3인</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" id="tab-1-1-1-3" class="tab" role="gnbtab" aria-selected="false" tabindex="0">
+												<span>4인이상</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div id="tabpanel-1-1-2" class="tabpanel" role="tabpanel" aria-labelledby="tab-1-1-2" tabindex="0" hidden>
+								<!-- 3dep: tab-1-1-2 패브릭소파 -->
+								<div class="tabs tabs--4dep">
+									<ul>
+										<li>
+											<a href="#" id="tab-1-1-2-1" class="tab" role="gnbtab" aria-selected="true" tabindex="0">
+												<span>패브릭</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" id="tab-1-1-2-2" class="tab" role="gnbtab" aria-selected="false" tabindex="-1">
+												<span>유사 패브릭</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div id="tabpanel-1-1-3" class="tabpanel" role="tabpanel" aria-labelledby="tab-1-1-3" tabindex="0" hidden>
+								<!-- 3dep: tab-1-1-3 리클라이너소파 > 추가 뎁스 없을때 -->
+							</div>
+							<div id="tabpanel-1-1-4" class="tabpanel" role="tabpanel" aria-labelledby="tab-1-1-4" tabindex="0" hidden>
+								<!-- 3dep: tab-1-1-4 거실장 > 추가 뎁스 없을때 -->
+							</div>
+							<!-- 하위 뎁스 없어도 써줘야 됩니다. -->
+						</div>
+						<div id="tabpanel-1-2" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-2" tabindex="-1" hidden="">
+							<!-- 옷장/수납 -->
+							<div class="tabs tabs--3dep">
+								<ul>
+									<li>
+										<a href="#" id="tab-1-1-2-1" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-2" aria-selected="true" tabindex="0">
+											<span>수납장/장식장/기타</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="tabpanel-1-3" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-3" tabindex="-1" hidden="">
+							<div class="tabs tabs--3dep">
+								<ul>
+									<li>
+										<a href="#" id="tab-1-1-2-1" class="tab" role="gnbtab" aria-controls="tabpanel-1-1-2" aria-selected="true" tabindex="0">
+											<span>5인 이상</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="tabpanel-1-4" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-4" tabindex="-1" hidden=""></div>
+						<div id="tabpanel-1-5" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-5" tabindex="-1" hidden=""></div>
+						<div id="tabpanel-1-6" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-6" tabindex="-1" hidden=""></div>
+						<div id="tabpanel-1-7" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-7" tabindex="-1" hidden=""></div>
+						<div id="tabpanel-1-8" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-8" tabindex="-1" hidden=""></div>
+						<div id="tabpanel-1-13" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-1-13" tabindex="-1" hidden=""></div>
+						<!-- 하위 뎁스 없어도 써줘야 됩니다. -->
+						<!-- //탭 1 내 콘텐츠 탭 -->
+					</div>
+					<div id="tabpanel-02" class="tabpanel" role="tabpanel" aria-labelledby="tab-02" tabindex="0" hidden="">
+						<!-- 탭 2 내 콘텐츠 탭 -->
+						<!-- 2뎁스 타이틀 -->
+						<h2 class="tabs--2dep-title hidden">가구</h2>
+						<div class="tabs tabs--2dep">
+							<ul role="tablist" aria-label="Tabs">
+								<li class="is-active">
+									<a id="tab-2-1" class="tab" role="gnbtab" aria-controls="tabpanel-2-1" aria-selected="true" tabindex="0">
+										<span>집테2dep</span>
+									</a>
+								</li>
+								<li>
+									<a id="tab-2-2" class="tab" role="gnbtab" aria-controls="tabpanel-2-2" aria-selected="false" tabindex="-1">
+										<span>침실&#183;장롱&#183;메트리스침실&#183;장롱&#183;메트리스</span>
+									</a>
+								</li>
+								<li>
+									<a id="tab-2-3" class="tab" role="gnbtab" aria-controls="tabpanel-2-3" aria-selected="false" tabindex="-1">
+										<span>침실&#183;장롱&#183;메트리스</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div id="tabpanel-2-1" class="tabpanel" role="tabpanel" aria-labelledby="tab-2-1" tabindex="0">
+							<div class="tabs tabs--3dep">
+								<ul>
+									<li>
+										<a href="#">
+											<span>1인/2A인/3인/4인/컴팩트 1인/2A인/3인/4인/컴팩트4인</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>1인/2A인/3인/4인/컴팩트 4인</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>5인이상</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>1인/2A인/3인/4인/컴팩트 4인</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>1인/2A인/3인/4인/컴팩트 4인</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>120CM 미만</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>120CM ~ 180CM 미만</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>180CM ~ 200CM 미만</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>200CM 이상</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>쇼파테이블/사이드테이블</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>수납장/장식장/기타</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- //탭 2 내 콘텐츠 탭 -->
+					</div>
+					<div id="tabpanel-03" class="tabpanel fullmenu-tabpanel" role="tabpanel" aria-labelledby="tab-03" tabindex="0" hidden=""></div>
+					<div id="tabpanel-04" class="tabpanel fullmenu-tabpanel" role="tabpanel" aria-labelledby="tab-04" tabindex="0" hidden="">
+						<!-- 세계가구 -->
+						<div class="tabs tabs--2dep">
+							<!-- 2뎁스 타이틀 -->
+							<h2 class="tabs--2dep-title hidden">침실가구</h2>
+							<ul role="tablist" aria-label="Tabs">
+								<li class="is-active">
+									<a href="#" id="tab-4-1" class="tab" role="gnbtab" aria-controls="tabpanel-4-1" aria-selected="true" tabindex="0">
+										<span>대륙별</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" id="tab-4-2" class="tab" role="gnbtab" aria-controls="tabpanel-4-2" aria-selected="false" tabindex="-1">
+										<span>공간별</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<!-- 3depth tabpanel-1-1-->
+						<div id="tabpanel-4-1" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-4-1" tabindex="-1" hidden>
+							<!-- 2dep: 침실 > 3dep -->
+							<div class="tabs tabs--3dep">
+								<ul>
+									<!-- 200921, 활성화 상태 샘플 -->
+									<li>
+										<a href="#" id="tab-4-1-1" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-1" aria-selected="true" tabindex="0">
+											<span>유럽</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-1-2" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-2" aria-selected="true" tabindex="-1">
+											<span>아프리카</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-1-3" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-3" aria-selected="true" tabindex="-1">
+											<span>동남아시아</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-1-4" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-4" aria-selected="true" tabindex="-1">
+											<span>서남아시아</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-1-5" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-5" aria-selected="true" tabindex="-1">
+											<span>동북아시아</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-1-6" class="tab" role="gnbtab" aria-controls="tabpanel-4-1-6" aria-selected="true" tabindex="-1">
+											<span>아메리카</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<!-- 하위 뎁스 없어도 써줘야 됩니다. -->
+						</div>
+						<div id="tabpanel-4-2" class="tabpanel" role="tabpanel" aria-selected="false" aria-labelledby="tab-4-2" tabindex="-1" hidden>
+							<!-- 2dep: 침실 > 3dep -->
+							<div class="tabs tabs--3dep">
+								<ul>
+									<!-- 200921, 활성화 상태 샘플 -->
+									<li>
+										<a href="#" id="tab-4-2-1" class="tab" role="gnbtab" aria-controls="tabpanel-4-2-1" aria-selected="true" tabindex="0">
+											<span>침실</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-2-2" class="tab" role="gnbtab" aria-controls="tabpanel-4-2-2" aria-selected="true" tabindex="0">
+											<span>거실</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-2-3" class="tab" role="gnbtab" aria-controls="tabpanel-4-2-3" aria-selected="true" tabindex="0">
+											<span>서재</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" id="tab-4-2-4" class="tab" role="gnbtab" aria-controls="tabpanel-4-2-4" aria-selected="true" tabindex="0">
+											<span>소가구</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- 하위 뎁스 없어도 써줘야 됩니다. -->
+						</div>
+					</div>
+					<div id="tabpanel-05" class="tabpanel fullmenu-tabpanel" role="tabpanel" aria-labelledby="tab-05" tabindex="0" hidden></div>
+					<div id="tabpanel-06" class="tabpanel fullmenu-tabpanel" role="tabpanel" aria-labelledby="tab-06" tabindex="0" hidden></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header-logo__title">
+				<h1>
+					<a href="index.html">LIVART</a>
+				</h1>
+				<p>
+					<!-- <a href="#"><strong>가구</strong></a> -->
+					<!-- <a href="#"><strong>리모델링&amp;시공</strong><span>집테리어</span></a> -->
+					<!-- <a href="#"><strong>오피스</strong></a> -->
+					<!-- <a href="#"><strong>세계가구</strong><span>리모델링&amp;시공</span></a> -->
+					<!-- <a href="#"><strong>중고가구</strong><span>오구가구</span></a> -->
+					<!-- <a href="#"><strong>커뮤니티</strong><img src="../../assets/images/gnb/logo_hinge.png" alt="Hinge" /></a> -->
+				</p>
+			</div>
+
+			<ul class="header-member-menu">
+				<!-- 해당하는 아이콘 클래스를 a 태그에도 추가 : 201125 -->
+				<!-- <li>
+				<a href="#">로그인</a>
+			</li> -->
+				<li>
+					<form id="logoutForm" name="logoutForm" action="" method="post">
+						<a href="#">로그아웃</a>
+						<div>
+							<input type="hidden" name="_csrf" value="" />
+						</div>
+					</form>
+				</li>
+				<li>
+					<a href="#">마이페이지</a>
+				</li>
+				<li>
+					<a href="#" class="pitem-header-mystore-toggle-btn">마이스토어소식</a>
+					<div class="header-member-menu__wrap">
+						<!-- 로그인 -->
+						<div class="header-member-menu__pop" style="display: none">
+							<p class="text-center">
+								마이스토어 메뉴는<br />
+								<strong>H.Point 통합회원 로그인</strong> 후 이용가능합니다.
+							</p>
+							<div class="button-area item-button-wrap is-flex">
+								<input type="submit" class="button is-primary is-small" value="로그인" />
+								<a href="#" class="button is-green is-small">마이스토어란?</a>
+								<!-- 마이스토어란 링크는 이벤트 페이지라고 함 -->
+							</div>
+							<button type="button" class="close" aria-label="close">
+								<i class="ico-cross"></i>
+								<span class="sr-only">닫기</span>
+							</button>
+						</div>
+
+						<!-- 로그인 후, 마이스토어X: 마이스토어 등록 -->
+						<div class="header-member-menu__pop">
+							<p class="text-center">
+								<strong>H.Point 통합회원</strong>으로 전환 후,<br />
+								고객님의 관심매장(마이스토어)을 등록해 주세요.<br />
+								<strong>즉시 사용가능한 할인쿠폰과 포인트 혜택</strong>을 가장 빠르게 알려드립니다.
+							</p>
+							<div class="button-area item-button-wrap is-flex">
+								<input type="submit" class="button is-primary is-small" value="H.Point 통합회원으로 전환하기" />
+								<a href="#" class="button is-green is-small">마이스토어란?</a>
+							</div>
+							<button type="button" class="close" aria-label="close">
+								<i class="ico-cross"></i>
+								<span class="sr-only">닫기</span>
+							</button>
+						</div>
+
+						<!-- 마이스토어 행사중 -->
+						<div class="header-member-menu__pop" style="display: none">
+							<h3>
+								고객님이 등록하신 마이스토어<br />
+								리바트토탈 강남 ★
+							</h3>
+							<ul class="dot-list">
+								<li>전시품 할인 <strong>최대 60% off</strong> 이벤트 진행중입니다. (4/1~30까지)</li>
+								<li>마이스토어에서 <strong>사용 가능한 쿠폰</strong>이 있습니다.</li>
+							</ul>
+							<div class="button-area item-button-wrap is-flex is-bordered">
+								<!-- <button type="button" class="button is-green is-small" onClick="alert('쿠폰을 모두 받았습니다')">내 쿠폰 다운받기</button> -->
+								<a href="#" class="button is-primary is-small">내 쿠폰 보러가기</a>
+								<a href="../cscenter/08.매장찾기_01메인.html" class="button is-outlined is-small">마이스토어 변경하기</a>
+								<!-- <input type="submit" class="button is-outlined is-small" value="마이스토어 변경하기" /> -->
+							</div>
+							<button type="button" class="close" aria-label="close">
+								<i class="ico-cross"></i>
+								<span class="sr-only">닫기</span>
+							</button>
+						</div>
+
+						<!-- 마이스토어 행사 없음 -->
+						<div class="header-member-menu__pop" style="display: none">
+							<h3>리바트토탈 강남 ★</h3>
+							<ul class="dot-list">
+								<li><strong>리바트님</strong> 께서 등록하신 마이스토어 매장의 최근 행사 공지가 없습니다.</li>
+							</ul>
+							<div class="button-area item-button-wrap is-flex is-bordered">
+								<input type="submit" class="button is-outlined is-small" value="마이스토어 변경하기" />
+							</div>
+							<button type="button" class="close" aria-label="close">
+								<i class="ico-cross"></i>
+								<span class="sr-only">닫기</span>
+							</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">장바구니</a>
+				</li>
+				<!-- <li>
+				<a href="#">방문상담예약</a>
+			</li> -->
+				<li>
+					<a href="#">고객센터</a>
+				</li>
+			</ul>
+
+			<div class="header-search-wrap">
+				<form action="#">
+					<fieldset>
+						<legend>통합검색</legend>
+						<div class="header-search">
+							<div class="header-search__input-wrap">
+								<input type="text" id="search" autocomplete="off" class="header-search__input" placeholder="검색어를 입력하세요" title="검색어" />
+							</div>
+							<button type="submit" class="header-search__submit icon"><i class="ico-search"></i><span class="sr-only">검색</span></button>
+						</div>
+					</fieldset>
+				</form>
+
+				<!-- S : 최근검색어/인기검색어 -->
+				<div class="header-search-content" id="headerSearchContent">
+					<div class="header-search-content__header">
+						<ul>
+							<li class="is-active">
+								<button id="tab-search1" class="tab" role="tab" aria-controls="tabpanel-search1">
+									<span>최근 검색어</span>
+								</button>
+							</li>
+							<li>
+								<button id="tab-search2" class="tab" role="tab" aria-controls="tabpanel-search2">
+									<span>인기 검색어</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- 최근 검색어 -->
+					<div id="tabpanel-search1" class="tabpanel is-active" role="tabpanel" aria-labelledby="tab-search1">
+						<div class="header-search-content__body">
+							<ul>
+								<li>
+									<a href="#">식탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">식탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">식탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">식탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+								<li>
+									<a href="#">협탁</a>
+									<button class="button-search-content__del"><i class="icon-del-small"></i><span class="sr-only">삭제</span></button>
+								</li>
+							</ul>
+						</div>
+						<div class="header-search-content__footer clear">
+							<div class="fl">
+								<button class="button-search-all__del">검색기록 전체삭제</button>
+							</div>
+							<div class="fr">
+								<button class="button-search-content__close">닫기 <i class="icon-del-small"></i></button>
+							</div>
+						</div>
+					</div>
+					<!-- //최근 검색어 -->
+					<!-- 인기검색어 -->
+					<div id="tabpanel-search2" class="tabpanel is-active" role="tabpanel" aria-labelledby="tab-search2" hidden>
+						<div class="header-search-content__body">
+							<ol class="header-search-content__popular">
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order search-result-ranking-tit-order-top">1</em>
+											<strong class="search-result-ranking-tit-name">소파</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_same"></i><strong class="hidden">순위 변동없음</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order search-result-ranking-tit-order-top">2</em>
+											<strong class="search-result-ranking-tit-name">책상</strong>
+										</span>
+										<span class="search-result-ranking-chang"><i class="icon-ranking_same"></i><strong class="hidden">순위 변동없음</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order search-result-ranking-tit-order-top">3</em>
+											<strong class="search-result-ranking-tit-name">화장대</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_up"></i><strong class="hidden">순위 상승</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">4</em>
+											<strong class="search-result-ranking-tit-name">침대</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_up"></i><strong class="hidden">순위 상승</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">5</em>
+											<strong class="search-result-ranking-tit-name">의자</strong>
+										</span>
+										<span class="search-result-ranking-change"><em>NEW</em><strong class="hidden">순위 진입</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">6</em>
+											<strong class="search-result-ranking-tit-name">서랍장</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_up"></i><strong class="hidden">순위 상승</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">7</em>
+											<strong class="search-result-ranking-tit-name">매트릭스</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_up"></i><strong class="hidden">순위 상승</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">8</em>
+											<strong class="search-result-ranking-tit-name">거실장</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_same"></i><strong class="hidden">순위 변동없음</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">9</em>
+											<strong class="search-result-ranking-tit-name">의자</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_same"></i><strong class="hidden">순위 변동없음</strong></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="search-result-ranking-tit">
+											<em class="search-result-ranking-tit-order">10</em>
+											<strong class="search-result-ranking-tit-name">침대</strong>
+										</span>
+										<span class="search-result-ranking-change"><i class="icon-ranking_down"></i><strong class="hidden">순위 변동 하락</strong></span>
+									</a>
+								</li>
+							</ol>
+						</div>
+						<div class="header-search-content__footer">
+							<div class="fl">2020.03.25 기준</div>
+							<div class="fr">
+								<button class="button-search-content__close">닫기 <i class="icon-del-small"></i></button>
+							</div>
+						</div>
+					</div>
+					<!-- //인기검색어 -->
+				</div>
+				<!-- E : 최근검색어/인기검색어 -->
+
+				<!-- S : 자동완성 -->
+				<div class="header-search-content" id="headerSearchKeyword">
+					<div class="header-search-content__header">
+						<a href="#">리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서<i class="icon-arrow-right"></i></a>
+						<a href="#">리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서<i class="icon-arrow-right"></i></a>
+						<a href="#">리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서 리바트 가구 설명서<i class="icon-arrow-right"></i></a>
+					</div>
+					<div class="header-search-content__body">
+						<ul>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#">리모델링 <strong>가구</strong></a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-search-content__footer">
+						<ul class="header-search-content__footer--hash">
+							<li>
+								<a href="#"># 리바트 <strong>가구</strong></a>
+							</li>
+							<li>
+								<a href="#"># 리모델링 <strong>가구</strong></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- E : 자동완성 -->
+			</div>
+		</div>
+	</div>
+	<!-- //header logo -->
+
+	<!-- s : #gnb 각 가구관에서 사용, 허브 사용 안함 -->
+	<div id="gnb" style="display: none">
+		<!-- gnb category -->
+		<div class="gnb-category-wrap">
+			<div class="fullmenu-bar">
+				<div class="container clear">
+					<!-- anime.js : svg line animation 처리 -->
+					<nav class="gnb-category">
+						<h2 class="hidden">카테고리 메뉴</h2>
+						<ul class="gnb-category__menu gnb-category__menu-total">
+							<!-- 갯수 최소 4개이상, 최대 10개 -->
+							<!-- 1개도 없는 경우는 없다고 합니다. -->
+							<!-- 커뮤니티에서만 노출
+								 <li>
+								<a href="#" class="button-comm-write">
+									<img src="../../assets/images/gnb/promo_07.png" alt="" />
+									<strong>콘텐츠 등록</strong>
+									<span>글쓰기</span>
+								</a>
+							</li> -->
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_01.jpg" alt="" />
+									<strong>웨딩&amp;신혼관</strong>
+									<span>H포인트5배적립</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_02.png" alt="" />
+									<strong>컬렉션</strong>
+									<span>컬렉션 모아보기</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_03.png" alt="" />
+									<strong>리바트위크</strong>
+									<span>리바트 최대행사</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_04.png" alt="" />
+									<strong>신제품</strong>
+									<span>2023년 첫신상</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_05.png" alt="" />
+									<strong>리바트라이브</strong>
+									<span>방송한정 특가</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../assets/images/gnb/promo_06.png" alt="" />
+									<strong>제휴브랜드</strong>
+									<span>인테리어가전,소품</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- //gnb category -->
+	</div>
+	<!-- e: gnb -->
+</div>
+
+<script>
+	/* 헤더 마이스토어 토글버튼 */
+	//최초로드 실행: 허브메인에서만 작동 / 그 외 메인, 서브 페이지에서는 작동 안함
+	$(document).ready(function () {
+		setTimeout(function () {
+			$('.header-member-menu__wrap').fadeOut();
+		}, 3000);
+	});
+	//토글버튼
+	$('.pitem-header-mystore-toggle-btn').on('mouseenter', function () {
+		$('.header-member-menu__wrap').fadeIn();
+	});
+	//헤더 벗어날때
+	$('.header-logo').on('mouseleave', function () {
+		$('.header-member-menu__wrap').fadeOut();
+	});
+	$('.header-member-menu__pop .close').on('click', function () {
+		$('.header-member-menu__wrap').fadeOut();
+	});
+	/* 헤더 마이스토어 토글버튼 */
+</script>
